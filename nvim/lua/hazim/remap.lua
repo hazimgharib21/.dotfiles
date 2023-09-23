@@ -21,3 +21,5 @@ vim.keymap.set("n", "<Left>", ":vertical resize +1<CR>")
 vim.keymap.set("n", "<Right>", ":vertical resize -1<CR>")
 vim.keymap.set("n", "<Up>", ":resize +1<CR>")
 vim.keymap.set("n", "<Down>", ":resize -1<CR>")
+
+vim.keymap.set("n", "<leader>t", ":sp<CR>:term<CR>:resize 20N<CR>i")
